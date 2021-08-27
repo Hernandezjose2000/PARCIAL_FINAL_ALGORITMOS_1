@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+
+const int MAXIMA = 100;
+
+
 void mostrar_vector_minimo_maximo(int array[], int longitud_vector){
 
 
@@ -33,7 +37,6 @@ void mostrar_vector_minimo_maximo(int array[], int longitud_vector){
 
 int main(){
 
-    const int MAXIMA = 100;
     int longitud_vector = 0;
     printf("Por favor ingrese la cantidad de numeros a ingresar no debe ser mayor a 100\n");
     scanf(" %d", &longitud_vector);
